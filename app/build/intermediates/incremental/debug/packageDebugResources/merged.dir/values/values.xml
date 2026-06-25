@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StreamCam</string>
+    <string name="start">Transmitir</string>
+    <string name="status_connecting">Conectando…</string>
+    <string name="status_failed">Error de conexión</string>
+    <string name="status_idle">Listo</string>
+    <string name="status_streaming">En vivo</string>
+    <string name="stop">Detener</string>
+    <string name="switch_camera">Cambiar cámara</string>
+    <style name="Theme.StreamCam" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">#0B0B0F</item>
+        <item name="android:navigationBarColor">#0B0B0F</item>
+    </style>
+</resources>

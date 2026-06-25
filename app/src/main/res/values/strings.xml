@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StreamCam</string>
+    <string name="start">Transmitir</string>
+    <string name="stop">Detener</string>
+    <string name="switch_camera">Cambiar cámara</string>
+    <string name="status_idle">Listo</string>
+    <string name="status_connecting">Conectando…</string>
+    <string name="status_streaming">En vivo</string>
+    <string name="status_failed">Error de conexión</string>
+</resources>

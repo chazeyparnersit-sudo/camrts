@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+id bitrateSpinner
+id channelSpinner
+id openGlView
+id panel
+id resolutionSpinner
+id startStopButton
+id statusText
+id switchCameraButton
+layout activity_main
+string app_name
+string start
+string status_connecting
+string status_failed
+string status_idle
+string status_streaming
+string stop
+string switch_camera
+style Theme.StreamCam
