@@ -1,4 +1,4 @@
-package com.streamcam.app
+﻿package com.streamcam.app
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -48,14 +48,14 @@ class MainActivity : AppCompatActivity(), ConnectChecker, SurfaceHolder.Callback
             this, android.R.layout.simple_spinner_dropdown_item,
             resolutions.map { it.first }
         )
-        // Seleccionar 720p por defecto (índice 1)
+        // Seleccionar 720p por defecto (Ã­ndice 1)
         binding.resolutionSpinner.setSelection(1)
 
         binding.bitrateSpinner.adapter = ArrayAdapter(
             this, android.R.layout.simple_spinner_dropdown_item,
             bitrates.map { it.first }
         )
-        // Seleccionar 6 Mbps por defecto (índice 2)
+        // Seleccionar 6 Mbps por defecto (Ã­ndice 2)
         binding.bitrateSpinner.setSelection(2)
 
         binding.channelSpinner.adapter = ArrayAdapter(
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity(), ConnectChecker, SurfaceHolder.Callback
     private fun buildSrtUrl(): String {
         val channelIndex = binding.channelSpinner.selectedItemPosition
         val channelId = channels[channelIndex].second
-        return "srt://$host:$port?streamid=publish:$channelId"
+        return "srt://$host:$port/publish:$channelId"
     }
 
     private fun toggleStream() {
@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity(), ConnectChecker, SurfaceHolder.Callback
             } else {
                 // Reiniciar preview aunque falle
                 srtCamera2.startPreview()
-                binding.statusText.text = "Encoder falló — audio:$preparedAudio video:$preparedVideo"
+                binding.statusText.text = "Encoder fallÃ³ â€” audio:$preparedAudio video:$preparedVideo"
             }
         } else {
             srtCamera2.stopStream()
@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity(), ConnectChecker, SurfaceHolder.Callback
 
     override fun onNewBitrate(bitrate: Long) = runOnUiThread {
         val kbps = bitrate / 1024
-        binding.statusText.text = getString(R.string.status_streaming) + " · ${kbps} kbps"
+        binding.statusText.text = getString(R.string.status_streaming) + " Â· ${kbps} kbps"
     }
 
     override fun onDisconnect() = runOnUiThread {
