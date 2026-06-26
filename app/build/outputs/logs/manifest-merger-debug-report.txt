@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\b53983219cd9cde5a942ddc3848c87cf\workspace\transformed\viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.pedroSG94.RootEncoder:library:2.4.5] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\66981894203f8fc18f3bcb97ca84b579\workspace\transformed\library-2.4.5\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\6f4956576055b863b0de1dda488e91a0\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
@@ -94,8 +94,8 @@ ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app
 	android:name
 		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:11:19-67
 application
-ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:13:5-30:19
-INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:13:5-30:19
+ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:13:5-32:19
+INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:13:5-32:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\6f4956576055b863b0de1dda488e91a0\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\6f4956576055b863b0de1dda488e91a0\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\366bc0fc57332626c4f66c73607fbcbc\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -117,35 +117,39 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sergio\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Sergio\.gradle\caches\9.3.0\transforms\811948a439fdd17cf7d0722c14ed88db\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
 		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:17:9-47
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:19:9-47
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:20:9-44
 activity#com.streamcam.app.MainActivity
-ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:20:9-29:20
+ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:22:9-31:20
 	android:screenOrientation
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:23:13-50
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:25:13-50
 	android:exported
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:24:13-36
 	android:configChanges
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:24:13-74
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:26:13-74
 	android:name
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:25:13-28:29
+ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sergio\Downloads\stream-cam-mobile-app\android-streamcam\app\src\main\AndroidManifest.xml
